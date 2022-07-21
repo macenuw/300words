@@ -138,7 +138,7 @@ function firstPartOfLesson(word) {
   const firstLesson = initElement('div', 'first-lesson');
   const title = initElement('h3', 'first-lesson__title', word);
   const inner = initElement('div', 'first-lesson__inner');
-  const text = initElement('span', 'first-lesson__text', 'Варианты перевода:');
+  const text = initElement('span', 'first-lesson__text', 'Варіант перекладу:');
   const list = initElement('ul', 'first-lesson__list');
   const btnInner = initElement('div', 'first-lesson__inner-btn');
   const prev = initElement('button', 'first-lesson__prev', 'prev');
