@@ -218,7 +218,7 @@ function thirdPartSrart(word) {
   const wordInArr = word.split('');
   wordInArr.sort(() => Math.random() - 0.5);
   const inner = initElement('div', 'pazle')
-  const title = initElement('h2', 'pazle__title', 'Собери слово')
+  const title = initElement('h2', 'pazle__title', 'Збери слово')
   const list = initElement('ul', 'pazle__list')
   const btns = initElement('div', 'pazle__btns')
   const reset = initElement('button', 'pazle__btn', 'reset')
